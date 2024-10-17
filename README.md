@@ -4,14 +4,6 @@
 
 This project is a simple full-stack web application that allows users to brainstorm ideas with a chatbot. Users can interact with the chatbot, save certain ideas, and reset the conversation and saved ideas. The application is built using React for the front-end and Node.js with Express for the back-end.
 
-## Project Structure
-
-/chatbot-app │
-├── /client # React front-end
-├── /src
-   └── App.js # Main application file │
-└── /server # Express back-end │
-   ├── index.js # Main server file
 
 ## Features
 
