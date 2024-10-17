@@ -19,7 +19,7 @@ This project is a simple full-stack web application that allows users to brainst
 
 ### Back-End (Node.js + Express)
 
-1. **Setup**: The server is set up using Express and listens on port `5000`.
+1. **Setup**: The backend is set up using Express and listens on port `5000`.
 2. **Endpoints**:
    - `POST /chat`: Receives user messages and generates a simple bot response.
    - `POST /save-idea`: Saves a user-specified idea to an in-memory array.
@@ -30,7 +30,7 @@ This project is a simple full-stack web application that allows users to brainst
 
 1. **User Interface**: The UI consists of a chat history display, an input field for user messages, buttons for saving ideas and resetting, and a list of saved ideas.
 2. **State Management**: The application uses React state to manage the chat history and saved ideas.
-3. **API Calls**: Axios is used to communicate with the back-end server, sending user messages and retrieving responses.
+3. **API Calls**: Axios is used to communicate with the back-end backend, sending user messages and retrieving responses.
 
 ## Running the Application Locally
 
@@ -50,10 +50,10 @@ cd chatbot-app
 
 ### Step 2: Set Up the Back-End
 
-Navigate to the server directory:
+Navigate to the backend directory:
 
 ```bash
- cd server
+ cd backend
 ```
 
 Install the required packages:
@@ -62,20 +62,20 @@ Install the required packages:
  npm install express cors body-parser
 ```
 
-Start the back-end server:
+Start the back-end backend:
 
 ```bash
 node index.js
 ```
 
-The server will be running on `http://localhost:5000`.
+The backend will be running on `http://localhost:5000`.
 
 ### Step 3: Set Up the Front-End
 
-Navigate back to the chatbot-app directory and then to the client directory:
+Navigate back to the chatbot-app directory and then to the frontend directory:
 
 ```bash
- cd ../client
+ cd ../frontend
 ```
 
 Install the required packages:
