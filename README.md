@@ -7,12 +7,11 @@ This project is a simple full-stack web application that allows users to brainst
 ## Project Structure
 
 /chatbot-app │
-├── /client # React front-end │
-├── /src │
-│ └── App.js # Main application file │
-└── ... # Other React files and dependencies │
+├── /client # React front-end
+├── /src
+   └── App.js # Main application file │
 └── /server # Express back-end │
-├── index.js # Main server file
+   ├── index.js # Main server file
 
 ## Features
 
