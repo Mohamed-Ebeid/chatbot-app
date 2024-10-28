@@ -59,7 +59,7 @@ Navigate to the backend directory:
 Install the required packages:
 
 ```bash
- npm install express cors body-parser
+ npm install
 ```
 
 Start the back-end backend:
@@ -81,13 +81,13 @@ Navigate back to the chatbot-app directory and then to the frontend directory:
 Install the required packages:
 
 ```bash
- npm install axios
+ npm install
 ```
 
 Start the front-end application:
 
 ```bash
- npm start
+ npm run dev
 ```
 
 The React application will open in your default web browser at `http://localhost:5173`.
